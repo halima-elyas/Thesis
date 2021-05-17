@@ -46,7 +46,7 @@ import org.opensim.modeling.*
 for i=1:3
     if i==1
         % Read in osim model 
-        osimModel=Model('arm_post_transfer_29_80.osim');    % create model object by loading the model from file
+        osimModel=Model('arm_post_transfer_29_30.osim');    % create model object by loading the model from file
     elseif i==2
         osimModel=Model('LENGTH_2_ALT.osim')
     else
